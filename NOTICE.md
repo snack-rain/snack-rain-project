@@ -1,17 +1,39 @@
 # 注意事項
 
 ## 資料結構
-index.html
-story.html
-topic-1.html
-topic-2.html
-topic-3.html
-mag.html
-mag-202307.html
-mag-202308.html
-coop.html
-about-us.html
-sub.html
+  ### HTML
+  index.html
+  story.html
+  topic-1.html
+  topic-2.html
+  topic-3.html
+  mag.html
+  mag-202307.html
+  mag-202308.html
+  coop.html
+  about-us.html
+  sub.html
+
+  ### SCSS
+  #### 共用區檔案
+    _variable.scss 
+    _navbar.scss
+    _header.scss
+    _footer.scss
+
+  #### 非共用區塊的檔案命名
+    _index.scss
+    _story.scss
+    _topic-1.scss
+    _topic-2.scss
+    _topic-3.scss
+    _mag.scss
+    _mag-202307.scss
+    _mag-202308.scss
+    _coop.scss
+    _about-us.scss
+    _sub.scss
+
 
 
 
