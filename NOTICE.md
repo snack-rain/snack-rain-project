@@ -1,5 +1,12 @@
 # 注意事項
 
+## 不可刪除的
+html文件中會有<script type="module" src="../main.js"></script>，這是指有用到 main.js 初始啟動程式用
+
+
+## 忘記 EJS 語法請看這裡
+<%- include('./layout/header'); -%>
+
 ## 資料結構
   ### HTML
   index.html
