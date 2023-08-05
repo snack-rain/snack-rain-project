@@ -1,6 +1,31 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/assets/scss/layout/customize-all.scss';
+
+//共同元件
 @import './layout/header.scss';
 @import './layout/footer.scss';
+@import './layout/navbar.scss';
 
-
+//頁面客製化
+//首頁
 @import './pages/index.scss';
+//零食故事
+@import './pages/story.scss';
+//零食三主題
+@import './pages/topic-1.scss';
+@import './pages/topic-2.scss';
+@import './pages/topic-3.scss';
+
+//零食誌
+@import './pages/mag.scss';
+@import './pages/mag-202307.scss';
+@import './pages/mag-202308.scss';
+
+//合作品牌
+@import './pages/coop.scss';
+
+//關於我們
+@import './pages/about-us.scss';
+
+//訂閱零食嶼
+@import './pages/sub.scss';

@@ -42,12 +42,12 @@
 
 #### 共用區檔案
 
-| scss檔         | 說明         |
-| -------------- | ------------ |
-| _variable.scss | 放變數的地方 |
-| _navbar.scss   | 導覽列元件   |
-| _header.scss   | 頁頭元件     |
-| _footer.scss   | 頁底元件     |
+| scss檔              | 說明             |
+| ------------------- | ---------------- |
+| _customize-all.scss | 修改不需要的樣式 |
+| _navbar.scss        | 導覽列元件       |
+| _header.scss        | 頁首元件         |
+| _footer.scss        | 頁底元件         |
 
 #### 非共用區塊的檔案命名
 
@@ -65,7 +65,6 @@
 | about-us.scss   | 關於我們              |
 | sub.scss        | 訂閱零食嶼            |
 
-
 ## Node.js 版本
 
 - 專案的 Node.js 版本需為 v16 以上
@@ -74,3 +73,7 @@
 ## 開發模式的監聽
 
 vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使用 `Live Sass Compiler` 的 `Watch SCSS` 功能
+
+## 想測試 Bootstrap 有沒有成功的話
+
+[嘗試互動視窗 (Modal)](https://bootstrap5.hexschool.com/docs/5.0/components/modal/#live-demo)
