@@ -1,0 +1,37 @@
+.container{
+    padding:16px;
+    border:orange 1px solid;
+  }
+  .mag-header{
+    text-align: center;
+    margin-bottom: 16px;
+    ul{
+      display:flex;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+    li{
+      padding:16px;
+      border: orange 1px solid;
+    }
+  }
+  .main-mag-bg{
+    background-image: url("https://fakeimg.pl/100x100/");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .mag-brief{
+    background: darkgray;
+  }
+  .mag-card {
+    display: flex;
+    flex-wrap:wrap;
+    li{
+      width:49%;
+    padding-bottom: 16px;
+    }
+    .mag-list-title{
+      background-image: url("https://fakeimg.pl/30x30/");
+    }
+  }
