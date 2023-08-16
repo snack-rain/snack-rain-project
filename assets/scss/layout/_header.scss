@@ -1,4 +1,30 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+// .header-container {
+//   background-image: url("/assets/images/header.png");
+//   background-size: 100% auto;
+//   background-repeat:no-repeat;
+// }
+.header-container{
+  img{
+    width: 100%;
+    position:absolute;
+    z-index: -100;
+  }
 }
+.header{
+  margin-top: 40%;
+}
+
+.scroll {
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  color: white;
+  margin-top: auto;
+}
+
+.header-heading{
+  h1,p{
+    color: $black-10;
+  }
+}
+
