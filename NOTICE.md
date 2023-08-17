@@ -78,7 +78,7 @@ $spacer:
   6: $spacer * 3,    //48px
   7: $spacer * 4,    //64px
   8: $spacer * 5,    //80px
-  8: $spacer * 12.5,    //120px
+  9: $spacer * 12.5,    //120px
 
 ```
 
