@@ -65,6 +65,27 @@
 | about-us.scss   | 關於我們              |
 | sub.scss        | 訂閱零食嶼            |
 
+### 間距
+
+```sass
+$spacer: 
+  0: 0,
+  1: $spacer * .25,  //4px
+  2: $spacer * .5,   //8px
+  3: $spacer,        //16px
+  4: $spacer * 1.5,  //24px
+  5: $spacer * 2,    //32px
+  6: $spacer * 3,    //48px
+  7: $spacer * 4,    //64px
+  8: $spacer * 5,    //80px
+  8: $spacer * 12.5,    //120px
+
+```
+
+#### spacer 寫法
+
+比如要寫 `margin-top:8px`,可以在 html 裡面的 class 貼上 `mb-2` ，即可呈現此間距
+
 ## Node.js 版本
 
 - 專案的 Node.js 版本需為 v16 以上

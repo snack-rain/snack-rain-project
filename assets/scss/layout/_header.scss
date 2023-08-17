@@ -1,17 +1,9 @@
-// .header-container {
-//   background-image: url("/assets/images/header.png");
-//   background-size: 100% auto;
-//   background-repeat:no-repeat;
-// }
 .header-container{
   img{
     width: 100%;
     position:absolute;
     z-index: -100;
   }
-}
-.header{
-  margin-top: 40%;
 }
 
 .scroll {
