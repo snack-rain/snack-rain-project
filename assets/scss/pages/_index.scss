@@ -1,3 +1,15 @@
-// *{
-//   outline: 1px solid orange;
-// }
+*{
+  outline: 1px solid orange;
+}
+
+.hover-img{
+    height:30rem;
+}
+
+#image1{
+    background-image: url(/assets/images/hover-1.png);
+}
+
+#image2{
+    background-image: url(/assets/images/hover-2.png);
+}
