@@ -2,14 +2,18 @@
   outline: 1px solid orange;
 }
 
+body{
+    background-image: url(/assets/images/noise.png);
+}
+
 .hover-img{
     height:30rem;
 }
 
-#image1{
-    background-image: url(/assets/images/hover-1.png);
-}
+// #image1{
+//     background-image: url(/assets/images/hover-1.png);
+// }
 
-#image2{
-    background-image: url(/assets/images/hover-2.png);
-}
+// #image2{
+//     background-image: url(/assets/images/hover-2.png);
+// }
