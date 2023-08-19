@@ -65,9 +65,9 @@
 | about-us.scss   | 關於我們              |
 | sub.scss        | 訂閱零食嶼            |
 
-### 間距
+### 間距 Spacer
 
-```sass
+```scss
 $spacer: 
   0: 0,
   1: $spacer * .25,  //4px
@@ -82,19 +82,60 @@ $spacer:
 
 ```
 
-#### spacer 寫法
+#### Spacer 寫法
 
-比如要寫 `margin-top:8px`,可以在 html 裡面的 class 貼上 `mb-2` ，即可呈現此間距
+```html
+<h2 class="mb-4">成為零食嶼島民</h2>
+```
 
-## Node.js 版本
+### Display 大小
+
+尺寸
+
+```scss
+display-headings
+$display-font-sizes: (
+  1: 3rem,    //48px
+  2: 2.5rem,  //40px
+  3: 2rem,    //32px
+  4: 1.75rem,  //28px
+  5: 1.5rem,    //24px
+  6: 1.25rem   //20px
+) !default;
+```
+
+加粗體
+
+```html
+<h2 class="font-weight-bold">成為零食嶼島民</h2>
+```
+
+字重(字粗細 scss 設定)
+
+```scss
+$font-weight-bold:            900 !default;
+```
+
+
+### Display 寫法
+
+```html
+<h2 class="display-1">成為零食嶼島民</h2>
+```
+
+
+
+## 其他設定
+
+### Node.js 版本
 
 - 專案的 Node.js 版本需為 v16 以上
 - 查看自己版本指令：`node -v`
 
-## 開發模式的監聽
+### 開發模式的監聽
 
 vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使用 `Live Sass Compiler` 的 `Watch SCSS` 功能
 
-## 想測試 Bootstrap 有沒有成功的話
+### 想測試 Bootstrap 有沒有成功的話
 
 [嘗試互動視窗 (Modal)](https://bootstrap5.hexschool.com/docs/5.0/components/modal/#live-demo)
