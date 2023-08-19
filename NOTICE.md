@@ -116,14 +116,11 @@ $display-font-sizes: (
 $font-weight-bold:            900 !default;
 ```
 
-
 ### Display 寫法
 
 ```html
 <h2 class="display-1">成為零食嶼島民</h2>
 ```
-
-
 
 ## 其他設定
 
