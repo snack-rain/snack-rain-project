@@ -7,6 +7,19 @@
 - 已將 pages 資料夾內的 index.html 預設為首頁，建議不要任意修改 index.html 的檔案名稱
 - .gitignore 檔案是用來忽略掉不該上傳到 GitHub 的檔案（例如 node_modules），請不要移除 .gitignore
 
+
+## Commit Message 規範組成：
+
+* feat: 新增/修改功能 (feature)。
+* fix: 修補 bug (bug fix)。
+* docs: 文件 (documentation)。
+* style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。
+* refactor: 重構 (既不是新增功能，也不是修補 bug 的程式碼變動)。
+* perf: 改善效能 (A code change that improves performance)。
+* test: 增加測試 (when adding missing tests)。
+* chore: 建構程序或輔助工具的變動 (maintain)。
+* revert: 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)。
+
 ## 忘記 EJS 語法請看這裡
 
 <%- include('./layout/header'); -%>
