@@ -46,6 +46,6 @@ export default defineConfig({
           ])
       ),
     },
-    outDir: 'root',
+    outDir: 'dist',
   },
 });
