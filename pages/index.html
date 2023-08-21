@@ -9,19 +9,56 @@
 
 <body>
   <!-- header 頁首-->
-<<<<<<< HEAD
-  <header class="header-container">
-      <%- include('./layout/header'); -%>   
-      <!-- 頁首標題 -->
-      <div class="container">
-=======
-  <header class="header-container position-relative">
-      <%- include('./layout/header'); -%>
-    
-      <!-- 頁首標題 -->
+  <header class="header-container position-relative mb-9">
+    <!-- 背景圖 -->
+    <img class="position-absolute z-n1 img-fluid" src="/assets/images/header.png" alt="bg-img-header">
+
+
+      <!-- 首頁的頁首區塊 -->
       <div class="container text-white">
->>>>>>> 1881006f42a4a261c39959f2f613f1722ce81e8f
-        <div class="header d-flex">
+        <!-- 導覽列區域 -->
+          <!-- LOGO -->
+            <nav class="row display-3 font-weight-bold">
+              <div class="col-1">
+                <a href="#">
+                  <img class="img-fluid" src="/assets/images/LOGO-header.png" alt="LOGO-header">
+                </a>
+              </div>
+              <div class="col-5"></div>
+              <div class="col-6">
+                <!-- nav連結文字區域 -->
+                <ul class="nav d-flex col-5">
+              <li>
+                <a class="nav-link text-light" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="story.html">零食的故事</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="topic-1.html">零食主題</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="mag.html">零食誌</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link text-light" href="coop.html">合作品牌</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link text-light" href="about-us.html">關於我們</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="sub-link nav-link active text-light" href="sub.html">訂閱零食嶼</a>
+              </li>
+                </ul>
+              </div>
+            
+          </nav>
+        
+          <!-- 下半部－標題與小圓圈 -->
+          <div class="header d-flex justify-content-between ">
           <!-- 標題 -->
           <div class="header-heading">
             <h1>小小一口，一切美好<br>吃點東西<br>重獲新生</h1>
@@ -31,13 +68,23 @@
           <div class="scroll">
             <p>這是小圈圈</p>
           </div>
-        </div>
+          </div>
       </div>
+
+      
   </header>
 
   <!-- 頁首三個特色位置 -->
-  <div class="container">
-    <ul class="row d-flex justify-content-between list-unstyled my-9 text-center ">
+  <div class="container mb-9 text-center">
+    <!-- 標題區塊 -->
+    <div class="mb-7">
+      <img class="mb-2" src="/assets/images/brand-text.svg" alt="BRAND">
+      <h2 class="display-1 font-weight-bold mb-4">合作品牌</h2>
+      <p class="fs-6">零食嶼與許多品牌合作，將最有趣的零食介紹給每一位零食愛好者！</p>
+    </div>
+
+     <!-- 網頁特色區塊 -->
+    <ul class="row d-flex justify-content-between list-unstyled ext-center ">
       <li class=" col mx-auto">
         <p class="mb-7">每一口咀嚼，伴隨時光倒流味蕾旅程！</p>
         <img class="img-fluid" src="/assets/images/Ellipse 1.png">
@@ -57,18 +104,18 @@
 
 
   <!-- 輪播影片 -->
-  <div class="hover-img row ps-9 mb-9">
-    <div class="col" id="image1">
-      <!-- <img src="/assets/images/hover-1.png" alt="零食主題－健身好朋友"> -->
-      12312132121
+  <div class="mb-9 row">
+    <div class="col">
+      <img src="https://fakeimg.pl/250x100/">
     </div>
-    <div class="col" id="image2">
-      <!-- <img src="/assets/images/hover-2.png" alt="零食主題－低卡無負擔"> -->
+    <div class="col">
+      <img src="https://fakeimg.pl/250x100/">
     </div>
-    <div class="col" id="image3">
-      <!-- <img src="/assets/images/hover-3.png" alt="零食主題－懷舊零食"> -->
+    <div class="col">
+      <img src="https://fakeimg.pl/250x100/">
     </div>
   </div>
+ 
 
 
   <!-- 零食誌 -->
@@ -135,24 +182,70 @@
 
 
   <!-- 關於我們 -->
-  <section class="container mb-9">
-    關於我們區塊
+  <section class="mb-9 overflow-hidden position-relative">
+    <img class="position-absolute z-n1" src="/assets/images/bg-image-about-us.png" alt="bg-image-about-us">
+    <div class="container ">
+      <img src="https://fakeimg.pl/300/">
+      <img src="https://fakeimg.pl/300/">
+      <img src="https://fakeimg.pl/300/">
+      <img src="https://fakeimg.pl/300/">
+    </div>
   </section>
 
   <!-- 訂閱零食嶼 -->
-  <section class="container text-center position-relative">
-    <img class="img-fluid z-n1 position-absolute" src="/assets/images/sub.png" alt="sub-background">
-    <div class="mx-auto w-50">
+  <section class="container text-center mb-9 position-relative">
+    <img class="img-fluid position-absolute z-n1" src="/assets/images/sub.png" alt="sub-background">
+    <!-- <div class="text position-relative">
+      <p class="position-absolute top-0 start-0">想知道更多零食介紹嗎？</p>
+      <p class="position-absolute top-20 end-20">想知道更多零食活動嗎？</p>
+      <p class="position-absolute top-50 end-0">想知道最新零食潮流嗎？</p>
+    </div> -->
+    
+    <div class="mx-auto w-50 ">
       <img class="mb-2" src="/assets/images/join-us.png" alt="join-us">
       <h2 class="display-1 font-weight-bold mb-4">成為零食嶼島民</h2>
       <button class="btn btn-primary">訂閱</button>
     </div>
     </img>
-    <p>想知道更多零食介紹嗎？</p>
-    <p>想知道更多零食活動嗎？</p>
-    <p>想知道最新零食潮流嗎？</p>
   </section>
+
+
   <!-- footer 頁尾 -->
+  <footer>
+    <div class="container d-flex justify-content-between border-top">
+      <!-- 左側 -->
+      <div class="col-2 ">
+        <!-- 零食嶼LOGO -->
+        <div class="logo mb-4">
+          <a href="#">
+            <img class="img-fluid" src="/assets/images/LOGO.png" alt="">
+          </a>
+      </div>
+
+      <!-- 社群媒體 -->
+      <ul class="d-flex justify-content-start">
+        <li>
+          <img class="p-2 me-2" src="/assets/images/Icon/ic_baseline-facebook.svg" alt="ic_baseline-facebook">
+        </li>
+        <li>
+          <img class="p-2" src="/assets/images/Icon/ant-design_instagram-filled.svg" alt="ant-design_instagram-filled">
+        </li>
+      </ul>
+      </div>
+      
+      <!-- 右側 -->
+      <!-- 版權宣告－無營利用途 -->
+      <p class="mt-auto col-6">＠此網站僅做 Side Project 作品使用,無營利用途/Copyright© 零食嶼委員會2023.All right reserved.</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
 
   <!-- 勿動 JS 區域 -->
   <%- include('./layout/javascript'); -%>
