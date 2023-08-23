@@ -1,0 +1,66 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "/node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "/node_modules/bootstrap/scss/variables";
+@import "/node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "/node_modules/bootstrap/scss/maps";
+@import "/node_modules/bootstrap/scss/mixins";
+@import "/node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "/node_modules/bootstrap/scss/utilities";
+@import "/node_modules/bootstrap/scss/reboot";
+@import "/node_modules/bootstrap/scss/type";
+@import "/node_modules/bootstrap/scss/images";
+@import "./node_modules/bootstrap/scss/containers";
+@import "/node_modules/bootstrap/scss/grid";
+@import "/node_modules/bootstrap/scss/helpers";
+@import "/node_modules/bootstrap/scss/buttons";
+@import "/node_modules/bootstrap/scss/button-group";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
+
+
+
+//共同元件
+@import './layout/customize-all.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './layout/navbar.scss';
+
+//頁面客製化
+//首頁
+@import './pages/index.scss';
+//零食故事
+@import './pages/story.scss';
+//零食三主題
+@import './pages/topic-1.scss';
+@import './pages/topic-2.scss';
+@import './pages/topic-3.scss';
+
+//零食誌
+@import './pages/mag.scss';
+@import './pages/mag-202307.scss';
+@import './pages/mag-202308.scss';
+
+//合作品牌
+@import './pages/coop.scss';
+
+//關於我們
+@import './pages/about-us.scss';
+
+//訂閱零食嶼
+@import './pages/sub.scss';
