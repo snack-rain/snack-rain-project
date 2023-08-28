@@ -1,0 +1,17 @@
+.main-mag-bg{
+  background-image: url("https://fakeimg.pl/100x100/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .mag-brief{
+    background: darkgray;
+  }
+  .mag-card {
+    li{
+      width:49%;
+    padding-bottom: 16px;
+    }
+    .mag-list-title{
+      background-image: url("https://fakeimg.pl/30x30/");
+    }
+  }
