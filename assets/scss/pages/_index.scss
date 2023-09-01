@@ -1,11 +1,20 @@
 *{
-    // outline: 1px solid orange;
+    outline: 1px solid orange;
     list-style: none;
 }
 
 a{
   text-decoration: none;
 }
+
+// header-bg-img
+.header-container {
+  background-image: url('/assets/images/header.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat; 
+}
+
 
 .header-heading{
   h1{
@@ -23,4 +32,15 @@ a{
   &:hover{
     border: 2px dashed white;
   }
+}
+
+
+//零食誌區塊
+.rotate-image {
+  transform: rotate(10deg); /* 45度角度旋转 */
+}
+
+.pos-spacer{
+  right: 0rem;
+  bottom: 9rem;
 }
