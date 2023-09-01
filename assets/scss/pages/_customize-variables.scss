@@ -1,0 +1,40 @@
+// Variables
+// Color system
+// scss-docs-start color-variables
+$blue:    #053D74 !default;
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,  //4px
+  2: $spacer * .5,   //8px
+  3: $spacer,        //16px
+  4: $spacer * 1.5,  //24px
+  5: $spacer * 2,    //32px
+  6: $spacer * 3,    //48px
+  7: $spacer * 4,    //64px
+  8: $spacer * 5,    //80px
+  9: $spacer * 12.5,    //200px
+) !default;
+
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%
+) !default;
+
+
+
+$display-font-sizes: (
+  1: 3rem,    //48px
+  2: 2.5rem,  //40px
+  3: 2rem,    //32px
+  4: 1.75rem,  //28px
+  5: 1.5rem,    //24px
+  6: 1.25rem   //20px
+) !default;
+
+$display-font-family: null !default;
+
