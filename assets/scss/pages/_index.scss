@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid orange;
+    // outline: 1px solid orange;
     list-style: none;
 }
 
@@ -30,7 +30,7 @@ a{
 
 .nav-hover{
   &:hover{
-    border: 2px dashed white;
+    border: 1px dashed white;
   }
 }
 
@@ -53,4 +53,27 @@ a{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  
+  p{
+    border: 1px dashed #D9D9D9;
+      // 想知道更多零食介紹嗎？
+  }
+  
 }
+
+.sub-pos-1{
+  top: 7em;
+  left: 0em;
+  }
+
+  // 想知道更多零食活動嗎？
+  .sub-pos-2{
+  left: 7em;
+  bottom: 0em;
+  }
+
+    // 想知道最新零食潮流嗎？
+  .sub-pos-3{
+  top:10em;
+  right:0em;
+  }
