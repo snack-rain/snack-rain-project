@@ -181,14 +181,42 @@
   </ul>
 
 
+  
+
   <!-- 關於我們 -->
-  <section class="mb-9 overflow-hidden position-relative">
-    <img class="position-absolute z-n1" src="/assets/images/bg-image-about-us.png" alt="bg-image-about-us">
-    <div class="container ">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
+  <!-- 外層定位 -->
+  <section class="about-us-bg-color mb-9 position-relative">
+    <!-- 背景文字：關於我們 -->
+    <img class="position-absolute z-n1 top-50 opacity-25" src="/assets/images/bg-image-about-us.png" alt="bg-image-about-us-text">
+
+    
+
+    <!-- 內層 -->
+    <div class="container position-relative h-100 d-flex align-items-center justify-content-center">
+      
+      <!-- CTA區塊：開始 -->
+      <div class="CTA text-center">
+        <!-- 加入我們的png圖 -->
+        <img class="mb-2 img-fluid" src="/assets/images/brand-text.svg" alt="brand-text">
+      
+        <!-- 標題 -->
+        <h2 class="display-1 font-weight-bold mb-4">
+          關於我們
+        </h2>
+
+        <!-- 按鈕 -->
+        <a href="./about-us.html"><button class="btn btn-primary">關於我們</button></a>
+      
+      </div>
+      <!-- CTA區塊：結束 -->
+      
+
+      <!-- 人物頭像以內層做定位:開始 -->
+      <img src="/assets/images/avatar-1.png" class="position-absolute about-pos-1">
+      <img src="/assets/images/avatar-2.png" class="position-absolute about-pos-2">
+      <img src="/assets/images/avatar-3.png" class="position-absolute about-pos-3">
+      <img src="/assets/images/avatar-4.png" class="position-absolute about-pos-4">
+      <!-- 人物頭像以內層做定位:結束 -->
     </div>
   </section>
 
@@ -204,8 +232,8 @@
         <p class="py-3 px-5 position-absolute sub-pos-3">想知道最新零食潮流嗎？</p>
           
         
-        
-          <div>
+        <!-- CTA區塊 -->
+        <div>
           <!-- 加入我們的png圖 -->
           <img class="mb-2 mx-auto img-fluid" src="/assets/images/join-us.png" alt="join-us">
         
