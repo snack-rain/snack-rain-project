@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>零食嶼首頁</title>
-  <script type="module" crossorigin src="/snack-rain-project/assets/index.umd-46e6a01f.js"></script>
-  <link rel="stylesheet" href="/snack-rain-project/assets/index-9d4a5d3c.css">
+  <script type="module" crossorigin src="/snack-rain-project/assets/index.umd-2432826a.js"></script>
+  <link rel="stylesheet" href="/snack-rain-project/assets/index-e185a3d6.css">
 </head>
 
 <body>
@@ -183,14 +183,42 @@
   </ul>
 
 
+  
+
   <!-- 關於我們 -->
-  <section class="mb-9 overflow-hidden position-relative">
-    <img class="position-absolute z-n1" src="/snack-rain-project/assets/bg-image-about-us-d6106e33.png" alt="bg-image-about-us">
-    <div class="container ">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
-      <img src="https://fakeimg.pl/300/">
+  <!-- 外層定位 -->
+  <section class="about-us-bg-color mb-9 position-relative">
+    <!-- 背景文字：關於我們 -->
+    <img class="position-absolute z-n1 top-50 opacity-25" src="/snack-rain-project/assets/bg-image-about-us-d6106e33.png" alt="bg-image-about-us-text">
+
+    
+
+    <!-- 內層 -->
+    <div class="container position-relative h-100 d-flex align-items-center justify-content-center">
+      
+      <!-- CTA區塊：開始 -->
+      <div class="CTA text-center">
+        <!-- 加入我們的png圖 -->
+        <img class="mb-2 img-fluid" src="/snack-rain-project/assets/brand-text-21b063a6.svg" alt="brand-text">
+      
+        <!-- 標題 -->
+        <h2 class="display-1 font-weight-bold mb-4">
+          關於我們
+        </h2>
+
+        <!-- 按鈕 -->
+        <a href="./about-us.html"><button class="btn btn-primary">關於我們</button></a>
+      
+      </div>
+      <!-- CTA區塊：結束 -->
+      
+
+      <!-- 人物頭像以內層做定位:開始 -->
+      <img src="/snack-rain-project/assets/avatar-1-31fe318b.png" class="position-absolute about-pos-1">
+      <img src="/snack-rain-project/assets/avatar-2-9a1a8c2d.png" class="position-absolute about-pos-2">
+      <img src="/snack-rain-project/assets/avatar-3-27849618.png" class="position-absolute about-pos-3">
+      <img src="/snack-rain-project/assets/avatar-4-fecf2d31.png" class="position-absolute about-pos-4">
+      <!-- 人物頭像以內層做定位:結束 -->
     </div>
   </section>
 
@@ -201,13 +229,13 @@
       <div class="container mb-9 text-center sub-bg-img d-flex flex-column justify-content-center position-relative " >
 
         <!-- 小對話框 -->
-        <p class="py-3 px-5 position-absolute top-50 start-0">想知道更多零食介紹嗎？</p>
-        <p class="py-3 px-5 position-absolute bottom-0 end-20">想知道更多零食活動嗎？</p>
-        <p class="py-3 px-5 position-absolute top-50 end-0">想知道最新零食潮
+        <p class="py-3 px-5 position-absolute sub-pos-1">想知道更多零食介紹嗎？</p>
+        <p class="py-3 px-5 position-absolute sub-pos-2">想知道更多零食活動嗎？</p>
+        <p class="py-3 px-5 position-absolute sub-pos-3">想知道最新零食潮流嗎？</p>
           
         
-        
-          <div>
+        <!-- CTA區塊 -->
+        <div>
           <!-- 加入我們的png圖 -->
           <img class="mb-2 mx-auto img-fluid" src="data:image/png;base64,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" alt="join-us">
         
