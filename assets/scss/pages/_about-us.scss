@@ -1,9 +1,73 @@
-.partner-text{
-    border: 1px solid lightgray;
-    border-radius: 15px;
-    background: lightgray;
+.TC-h1-b {
+    color: #000;
+    /* TC/Heading01/Bold */
+    font-family: Noto Sans TC;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 72px */
 }
 
-.aboutus-slogan{
-    background-color: blueviolet;
+.TC-h3{
+    color: #000;
+    /* TC/Heading03/Regular */
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 48px */
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.banner{
+    color: #000;
+    /* TC/Heading03/Bold */
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 48px */
+    background-color: #053D74;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.partner-text{
+    background-color: #f2f2f2;
+    text-align: start;
+    /* TC/Heading06/Regular */
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+.about-us-content{
+    background-color: #f2f2f2;
 }
