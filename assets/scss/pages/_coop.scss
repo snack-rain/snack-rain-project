@@ -37,12 +37,12 @@
 .submit-btn {
     border-radius: 2px;
     border: 1px dashed var(--black-0, #FFF);
-    color: #fff;
+    color: #053D74;
     padding: 16px 32px;
 
     &:hover {
-        color: #053D74;
-        background: var(--black-0, #FFF);
+        color: #FFF;
+        background: var(--black-0, #053D74FF);
     }
 }
 
