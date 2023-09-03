@@ -71,3 +71,39 @@
 .about-us-content{
     background-color: #f2f2f2;
 }
+
+.animated-element {
+    width: 300px;
+    height: 300px;
+    animation: combined-animation 8s ease-in-out infinite;
+}
+
+@keyframes combined-animation {
+    0% {
+        opacity: 1;
+        /* 透明度为 0%（完全透明）*/
+    }
+
+    50% {
+        opacity: 85%;
+        /* 透明度为 100%（完全不透明）*/
+    }
+
+    100% {
+        opacity: 1;
+        /* 透明度为 0%（完全透明）*/
+    }
+
+    0%,
+    100% {
+        border-radius: 45% 55% 49% 51% / 46% 49% 51% 54%
+    }
+
+    30% {
+        border-radius: 41% 59% 58% 42% / 20% 57% 43% 80%
+    }
+
+    60% {
+        border-radius: 41% 59% 27% 73% / 77% 44% 56% 23%
+    }
+}
