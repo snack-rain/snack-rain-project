@@ -1,0 +1,85 @@
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.brand-btn {
+    border-radius: 100px;
+}
+
+.brand-box {
+    border-radius: 100px;
+    background-color: #d1d1d1;
+}
+
+.brand-content {
+    color: var(--black-80, #525252);
+    text-align: center;
+    /* TC/Heading06/Regular */
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.submit-btn {
+    border-radius: 2px;
+    border: 1px dashed var(--black-0, #FFF);
+    color: #053D74;
+    padding: 16px 32px;
+
+    &:hover {
+        color: #FFF;
+        background: var(--black-0, #053D74FF);
+    }
+}
+
+.TC-h1-b {
+    color: #000;
+    /* TC/Heading01/Bold */
+    font-family: Noto Sans TC;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 72px */
+}
+
+.TC-h2-b {
+    color: #000;
+    /* TC/Heading02/Bold */
+    font-family: Noto Sans TC;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 60px */
+}
+
+.TC-h4-b {
+    color: #000;
+    /* TC/Heading04/Bold */
+    font-family: Noto Sans TC;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 42px */
+}
+
+.contact-us {
+    background-color: #f2f2f2;
+}
