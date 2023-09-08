@@ -28,6 +28,12 @@ a{
   }
 }
 
+//heder-logo 設定
+.heder-logo-img{
+ width: 72px;
+ height: auto;
+}
+
 .nav-hover{
   &:hover{
     border: 1px dashed white;

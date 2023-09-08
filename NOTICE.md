@@ -34,6 +34,10 @@
 - pages # 頁面放置處
 - JavaScript 程式碼可寫在 main.js 檔案
 
+### 設計稿連結
+
+[設計稿連結](https://www.figma.com/file/boEkPWQE2TJ4CODOoV8DV6/%E5%85%AD%E8%A7%92_%E8%BE%A6%E5%85%AC%E5%AE%A4%E9%9B%B6%E9%A3%9F?node-id=0%3A1&mode=dev)
+
 ### HTML
 
 | 頁面            | 說明                  |
@@ -148,6 +152,5 @@ vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使
 ### 想測試 Bootstrap 有沒有成功的話
 
 [嘗試互動視窗 (Modal)](https://bootstrap5.hexschool.com/docs/5.0/components/modal/#live-demo)
-
 
 測試
