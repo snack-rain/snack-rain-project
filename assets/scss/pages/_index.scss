@@ -34,6 +34,12 @@ a{
  height: auto;
 }
 
+//導覽列設定
+.mobile-nav {
+  width: 40px;
+  padding: 10px;
+}
+
 .nav-hover{
   &:hover{
     border: 1px dashed white;
