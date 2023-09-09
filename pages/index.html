@@ -9,66 +9,23 @@
 
 <body>
   <!-- header 頁首：開始 -->
-  <header class="header-container position-relative mb-lg-9 pt-lg-6 d-flex ">
+  <header class="header-container position-relative mb-8 mb-xl-9 pt-6 d-flex ">
     <!-- header 上半部＋下半部區塊：開始 -->
-    <div class="container-lg text-white">
+    <div class="container text-white ">
 
        <!--  header 上半區域 -->
-        <div class="d-flex justify-content-between justify-content-md-center mb-lg-9 pb-lg-6">
-          <!-- LOGO 零食嶼 -->
-          <a class="heder-logo-img" href="#">
-            <img class="img-fluid heigh" src="/assets/images/LOGO-header.png" alt="LOGO-header">
-          </a>  
-          
-          <!-- nav區域 -->
-          <nav>
-            <!-- Mobile版：導覽列 -->
-            <img src="/assets/images/Icon/burger-icon.svg" alt="burger-icon" class="mobile-nav rounded-circle text-bg-light d-md-none">
-            <!-- PC版:nav連結文字 -->
-            <ul class="display-4 text-center pd-6 d-none d-md-flex">
-              <li class="px-4 py-2 nav-hover ">
-                <a class="text-light" href="index.html">首<br>頁</a>
-              </li>
+       <%- include('./layout/header-up'); -%>
 
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="story.html">零<br>食<br>的<br>故<br>事</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="topic-1.html">零<br>食<br>主<br>題</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="mag.html">零<br>食<br>誌</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="coop.html">合<br>作<br>品<br>牌</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="about-us.html">關<br>於<br>我<br>們</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="sub.html">訂<br>閱<br>零<br>食<br>嶼</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-      
-        
       <!-- 下半部－標題與小圓圈 -->
       <div class="header align-items-end d-flex justify-content-between">
         <!-- 標題 -->
-        <div class="header-heading">
+        <div class="header-heading h6-sm">
           <h1>小小一口<br>一切美好<br>吃點東西<br>重獲新生</h1>
           <p>Bitty bite, be alright. <br> Get a bite, get a life.</p>
         </div>
         <!-- 小圈圈 -->
         <div>
-          <img src="/assets/images/Scroll.png" alt="scroll" class="align-items-end">
+          <img src="/assets/images/Scroll.png" alt="scroll" class="align-items-end d-sm-flex d-none">
         </div>
       </div>
     </div>
@@ -77,27 +34,27 @@
   <!-- header 頁首：結束 -->
 
   <!-- 頁首三個特色位置：開始 -->
-  <section class="container mb-9 text-center">
+  <section class="container mb-8 mb-xl-9 text-center">
     <!-- 標題區塊 -->
-    <div class="mb-7">
+    <div class="mb-5 mb-sm-7">
       <img class="mb-2" src="/assets/images/brand-text.svg" alt="BRAND">
       <h2 class="display-1 font-weight-bold mb-4">網站特色</h2>
       <p class="fs-6">零食嶼的理念，將分享給每一位零食愛好者！</p>
     </div>
 
     <!-- 網頁特色區塊：開始 -->
-    <ul class="row d-flex justify-content-between list-unstyled ext-center ">
-      <li class=" col mx-auto">
-        <p class="mb-7">每一口咀嚼，伴隨時光倒流味蕾旅程！</p>
+    <ul class="d-sm-flex flex-wrap list-unstyled">
+      <li class="col d-flex flex-column flex-sm-column-reverse ">
         <img class="img-fluid" src="/assets/images/Ellipse 1.png">
+        <p class="mb-sm-7">每一口咀嚼，伴隨時光倒流味蕾旅程！</p>
       </li>
-      <li class="col mx-auto">
-        <img class="mb-7 img-fluid" src="/assets/images/Ellipse 2.png">
-        <p>小包分裝小確幸，不礙工作進度，吃完毫無壓力！</p>
+      <li class="col d-flex flex-column">
+        <img class="img-fluid" src="/assets/images/Ellipse 2.png">
+        <p  class="mb-sm-7">小包分裝小確幸，不礙工作進度，吃完毫無壓力！</p>
       </li>
-      <li class=" col mx-auto">
-        <p class=" mb-7">忙碌時，零食伴，活力滿載!</p>
+      <li class="col d-flex flex-column flex-sm-column-reverse ">
         <img class="img-fluid" src="/assets/images/Ellipse 3.png">
+        <p class="mb-sm-7">忙碌時，零食伴，活力滿載!</p>
       </li>
     </ul>
     <!-- 網頁特色區塊：結束 -->
@@ -106,30 +63,30 @@
 
 
   <!-- 輪播影:開始 -->
-  <section class="3-topic mb-9 ">
+  <section class="3-topic mb-8 mb-xl-9 ">
     <img src="/assets/images/3topic-1.png" alt="3topic-1" class="ms-auto d-block img-fluid w-30">
   </section>
   <!-- 輪播影:開始 -->
 
 
   <!-- 零食誌：開始 -->  
-    <div class="mag-bg mb-9 py-9 bg-primary ">
+    <div class="mag-bg mb-8 mb-xl-9 py-sm-6 py-lg-9 bg-primary ">
       <div class="container ">
         <!-- 零食誌 八月號 綠色乖乖傳說 按鈕 -->
-      <h2 class="text-light">零食誌</h2>
+      <h2 class="text-light d-none d-sm-block">零食誌</h2>
 
       <!-- 月刊圖片位置 -->
       <div class="position-relative">
-        <img class="mx-auto d-block rotate-image img-fluid w-50" src="https://fakeimg.pl/250x400/">
+        <img class="mx-auto d-block rotate-image img-fluid w-50 my-6" src="https://fakeimg.pl/250x400/">
 
         <!-- 月刊標題位置 -->
-        <div class="heading-container ms-auto w-25 position-absolute pos-spacer z-3">
+        <div class="heading-container ms-auto w-25 position-absolute end-0 top-50 z-3">
         <h3 class="text-black bg-white">
           八月號<br>綠色乖乖傳說
         </h3>
         </div>
         <!-- 月刊摘要位置 -->
-        <p class="text-light w-25">據傳只有奶油椰子口味的「乖乖」能當幸運符,讓3C產品、機器不故障當機~科技與信仰的獨特文化!機台放綠色乖乖都市傳說是何時開始的?</p>
+        <p class="text-light">據傳只有奶油椰子口味的「乖乖」能當幸運符,讓3C產品、機器不故障當機~科技與信仰的獨特文化!機台放綠色乖乖都市傳說是何時開始的?</p>
       </div>
       
       
@@ -143,7 +100,7 @@
 
   <!-- 合作品牌區塊：開始 -->
   <section>
-    <div class="container mb-7 text-center">
+    <div class="container mb-8 mb-xl-9 text-center">
       <!-- 合作品牌標題 -->
       <div>
         <img class="mb-2" src="/assets/images/brand-text.svg" alt="BRAND">
@@ -190,7 +147,7 @@
 
   <!-- 關於我們:開始 -->
   <!-- 外層定位 -->
-  <section class="about-us-bg-color mb-9 position-relative overflow-hidden">
+  <section class="about-us-bg-color mb-8 mb-xl-9 position-relative overflow-hidden">
     <!-- 背景文字：關於我們 -->
     <img class="position-absolute z-n1 top-50 opacity-25 " src="/assets/images/bg-image-about-us.png" alt="bg-image-about-us-text">
 
@@ -230,7 +187,7 @@
   <section>
     <!-- 以山形背影圖做定位的其他元件 -->
       <!-- 成為零食嶼島民文字和按鈕 -->
-      <div class="container mb-9 text-center sub-bg-img d-flex flex-column justify-content-center position-relative " >
+      <div class="container mb-8 mb-xl-9 text-center sub-bg-img d-flex flex-column justify-content-center position-relative" >
 
         <!-- 小對話框 -->
         <p class="py-3 px-5 position-absolute sub-pos-1">想知道更多零食介紹嗎？</p>

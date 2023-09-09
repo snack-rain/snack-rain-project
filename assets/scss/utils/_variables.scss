@@ -486,9 +486,10 @@ $paragraph-margin-bottom:   1rem !default;
 // adapting to different screen sizes, for use in media queries.
 
 // scss-docs-start grid-breakpoints
+//有改的地方－－斷點
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 375px,
   md: 768px,
   lg: 992px,
   xl: 1200px,
@@ -505,8 +506,9 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 // scss-docs-start container-max-widths
+//有改的地方－－max-width
 $container-max-widths: (
-  sm: 540px,
+  sm: 576px,
   md: 720px,
   lg: 960px,
   xl: 1140px,
@@ -548,8 +550,9 @@ $border-color:                $gray-300 !default;
 $border-color-translucent:    rgba($black, .175) !default;
 // scss-docs-end border-variables
 
+//有改的地方－－圓角
 // scss-docs-start border-radius-variables
-$border-radius:               .375rem !default;
+$border-radius:               null !default;
 $border-radius-sm:            .25rem !default;
 $border-radius-lg:            .5rem !default;
 $border-radius-xl:            1rem !default;

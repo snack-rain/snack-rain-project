@@ -138,6 +138,33 @@ $font-weight-bold:            900 !default;
 <h2 class="display-1">成為零食嶼島民</h2>
 ```
 
+### max-width 設定
+
+```scss
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 576px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1296px
+) !default;
+// scss-docs-end container-max-widths
+```
+
+## break-point 設定
+
+```scss
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+```
+
 ## 其他設定
 
 ### Node.js 版本

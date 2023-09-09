@@ -1,4 +1,3 @@
-
 // Custom.scss
 // Option B: Include parts of Bootstrap
 
@@ -33,18 +32,19 @@
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@400;700;900&display=swap');
 
 
-
-*{
-    // outline: 1px solid orange;
-    list-style: none;
+* {
+  // outline: 1px solid orange;
+  list-style: none;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
-  
+
 
 //共同元件
 @import './layout/header.scss';
