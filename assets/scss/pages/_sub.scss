@@ -38,30 +38,6 @@
     }
 }
 
-.mb-24 {
-    margin-bottom: 24px;
-}
-
-.mb-200 {
-    margin-bottom: 200px;
-}
-
-.mt-200 {
-    margin-top: 200px;
-}
-
-.mb-64 {
-    margin-bottom: 64px;
-}
-
-.mr-24 {
-    margin-right: 24px;
-}
-
-.mt-64 {
-    margin-top: 64px;
-}
-
 .TC-h1-b {
     color: #000;
     /* TC/Heading01/Bold */
@@ -85,5 +61,6 @@
 }
 
 .license {
-    background-color: #d1d1d1;
+    background-color:$primary;
+    color: $light;
 }
