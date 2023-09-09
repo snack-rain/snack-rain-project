@@ -1,9 +1,9 @@
-*{
-    outline: 1px solid orange;
-    list-style: none;
+* {
+  outline: 1px solid orange;
+  list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -12,26 +12,15 @@ a{
   background-image: url('/assets/images/header.png');
   background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 
-.header-heading{
-  h1{
-    line-height: 200%;
-    letter-spacing: 20px;
-  }
-  p{
-    line-height: 150%;
-    letter-spacing: 1.2px;
-    font-size: 24px;
-  }
-}
 
 //heder-logo 設定
-.heder-logo-img{
- width: 72px;
- height: auto;
+.heder-logo-img {
+  width: 4rem;
+  height: auto;
 }
 
 //導覽列設定
@@ -40,32 +29,38 @@ a{
   padding: 10px;
 }
 
-.nav-hover{
-  &:hover{
+.nav-hover {
+  &:hover {
     border: 1px dashed white;
   }
+}
+
+//header 標題設定
+h1{
+  letter-spacing: 1.2rem;
 }
 
 
 //零食誌區塊
 .rotate-image {
-  transform: rotate(10deg); /* 45度角度旋转 */
+  transform: rotate(10deg);
+  /* 45度角度旋转 */
 }
 
-.pos-spacer{
+.pos-spacer {
   right: 0rem;
   bottom: 9rem;
 }
 
 //關於我們
-.about-pos-1{
+.about-pos-1 {
   width: 212px;
   top: 10em;
   left: 2em;
   z-index: -100;
 }
 
-.about-pos-2{
+.about-pos-2 {
   width: 306px;
   bottom: 2em;
   left: 5em;
@@ -73,55 +68,55 @@ a{
 }
 
 
-.about-pos-3{
+.about-pos-3 {
   width: 306px;
   top: 4em;
   right: 10em;
   z-index: -100;
 }
 
-.about-pos-4{
+.about-pos-4 {
   width: 196px;
   bottom: 6rem;
   right: 1rem;
   z-index: -100;
 }
 
-.about-us-bg-color{
+.about-us-bg-color {
   background-color: #F2F2F2;
   z-index: -100;
   height: 53rem;
 }
 
 //成為零食嶼島民
-.sub-bg-img{
-  width:81rem;
-  height:36rem;
+.sub-bg-img {
+  width: auto;
+  height: 36rem;
   background-image: url(/assets/images/sub.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  
-  p{
+
+  p {
     border: 1px dashed #D9D9D9;
-      // 想知道更多零食介紹嗎？
+    // 想知道更多零食介紹嗎？
   }
-  
+
 }
 
-.sub-pos-1{
+.sub-pos-1 {
   top: 7em;
   left: 0em;
-  }
+}
 
-  // 想知道更多零食活動嗎？
-  .sub-pos-2{
+// 想知道更多零食活動嗎？
+.sub-pos-2 {
   left: 7em;
   bottom: 0em;
-  }
+}
 
-    // 想知道最新零食潮流嗎？
-  .sub-pos-3{
-  top:10em;
-  right:0em;
-  }
+// 想知道最新零食潮流嗎？
+.sub-pos-3 {
+  top: 10em;
+  right: 0em;
+}

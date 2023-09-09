@@ -14,61 +14,18 @@
     <div class="container-lg text-white">
 
        <!--  header 上半區域 -->
-        <div class="d-flex justify-content-between justify-content-md-center mb-lg-9 pb-lg-6">
-          <!-- LOGO 零食嶼 -->
-          <a class="heder-logo-img" href="#">
-            <img class="img-fluid heigh" src="/assets/images/LOGO-header.png" alt="LOGO-header">
-          </a>  
-          
-          <!-- nav區域 -->
-          <nav>
-            <!-- Mobile版：導覽列 -->
-            <img src="/assets/images/Icon/burger-icon.svg" alt="burger-icon" class="mobile-nav rounded-circle text-bg-light d-md-none">
-            <!-- PC版:nav連結文字 -->
-            <ul class="display-4 text-center pd-6 d-none d-md-flex">
-              <li class="px-4 py-2 nav-hover ">
-                <a class="text-light" href="index.html">首<br>頁</a>
-              </li>
+       <%- include('./layout/header-up'); -%>
 
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="story.html">零<br>食<br>的<br>故<br>事</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="topic-1.html">零<br>食<br>主<br>題</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="mag.html">零<br>食<br>誌</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="coop.html">合<br>作<br>品<br>牌</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="about-us.html">關<br>於<br>我<br>們</a>
-              </li>
-
-              <li class="px-4 py-2 nav-hover">
-                <a class="text-light" href="sub.html">訂<br>閱<br>零<br>食<br>嶼</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-      
-        
       <!-- 下半部－標題與小圓圈 -->
       <div class="header align-items-end d-flex justify-content-between">
         <!-- 標題 -->
-        <div class="header-heading">
+        <div class="header-heading h6-sm">
           <h1>小小一口<br>一切美好<br>吃點東西<br>重獲新生</h1>
           <p>Bitty bite, be alright. <br> Get a bite, get a life.</p>
         </div>
         <!-- 小圈圈 -->
         <div>
-          <img src="/assets/images/Scroll.png" alt="scroll" class="align-items-end">
+          <img src="/assets/images/Scroll.png" alt="scroll" class="align-items-end d-sm-flex d-none">
         </div>
       </div>
     </div>
@@ -230,7 +187,7 @@
   <section>
     <!-- 以山形背影圖做定位的其他元件 -->
       <!-- 成為零食嶼島民文字和按鈕 -->
-      <div class="container mb-9 text-center sub-bg-img d-flex flex-column justify-content-center position-relative " >
+      <div class="container mb-9 text-center sub-bg-img d-flex flex-column justify-content-center position-relative" >
 
         <!-- 小對話框 -->
         <p class="py-3 px-5 position-absolute sub-pos-1">想知道更多零食介紹嗎？</p>
