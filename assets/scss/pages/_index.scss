@@ -1,10 +1,21 @@
 * {
-  outline: 1px solid orange;
+  // outline: 1px solid orange;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+//共用在斷點時開啟絕對定位
+.custom-position {
+  position: static;
+}
+
+@media (min-width: 768px) {
+  .custom-position {
+      position: absolute;
+  }
 }
 
 // header-bg-img
@@ -48,6 +59,10 @@ h1{
 }
 
 
+
+
+
+
 //關於我們
 .about-pos-1 {
   width: 212px;
@@ -80,7 +95,7 @@ h1{
 
 .about-us-bg-color {
   background-color: #F2F2F2;
-  z-index: -100;
+  z-index: -3;
   height: 53rem;
 }
 
@@ -99,6 +114,8 @@ h1{
   }
 
 }
+
+
 
 .sub-pos-1 {
   top: 7em;
